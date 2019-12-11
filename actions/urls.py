@@ -21,5 +21,7 @@ urlpatterns = [
     path('actions/', views.ActionList.as_view()),
     path('actions/<int:pk>/', views.ActionDetail.as_view()),
     path('actioncards/', views.ActionCardList.as_view()),
-    path('actioncards/<int:pk>/', views.ActionCardDetail.as_view())
+    path('actioncards/<int:pk>/', views.ActionCardDetail.as_view()),
+    path('surveyresponses/', views.SurveyResponseList.as_view()),
+    path('surveyresponses/<int:pk>/', views.SurveyResponseDetail.as_view())
 ]

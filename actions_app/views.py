@@ -1,5 +1,5 @@
-from actions_app.models import Action, ActionCard
-from actions_app.serializers import ActionCardSerializer, ActionSerializer
+from actions_app.models import Action, ActionCard, SurveyResponse
+from actions_app.serializers import ActionCardSerializer, ActionSerializer, SurveyResponseSerializer
 from rest_framework import generics
 
 
@@ -20,3 +20,12 @@ class ActionCardList(generics.ListCreateAPIView):
 class ActionCardDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = ActionCard.objects.all()
     serializer_class = ActionCardSerializer
+
+class SurveyResponseList(generics.ListCreateAPIView):
+    queryset = SurveyResponse.objects.all()
+    serializer_class = SurveyResponseSerializer
+
+
+class SurveyResponseDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = SurveyResponse.objects.all()
+    serializer_class = SurveyResponseSerializer
