@@ -17,12 +17,14 @@ from django.contrib import admin
 from django.urls import path, re_path, include
 from actions_app import views
 urlpatterns = [
+    path('', include('django.contrib.auth.urls')),
     re_path(r'^rest-auth/', include('rest_auth.urls')),
     re_path(r'^rest-auth/registration/', include('rest_auth.registration.urls')),
     path('admin/', admin.site.urls),
     path('actions/', views.ActionList.as_view()),
     path('actions/<int:pk>/', views.ActionDetail.as_view()),
     path('actioncards/', views.ActionCardList.as_view()),
+    path('actioncards/latest/', views.latest_action_card),
     path('actioncards/<int:pk>/', views.ActionCardDetail.as_view()),
     path('surveyresponses/', views.SurveyResponseList.as_view()),
     path('surveyresponses/<int:pk>/', views.SurveyResponseDetail.as_view())

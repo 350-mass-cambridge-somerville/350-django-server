@@ -3,10 +3,18 @@ from actions_app.models import Action, ActionCard, SurveyResponse
 
 
 class SurveyResponseSerializer(serializers.ModelSerializer):
+    user = serializers.HiddenField(default=serializers.CurrentUserDefault())
+    name = serializers.HiddenField(default='Anonymous')
     class Meta:
         model = SurveyResponse
-        fields = ['id', 'name', 'date', 'action_card', 'actions']
+        fields = ['id', 'date', 'name', 'user', 'action_card', 'actions']
 
+class SurveyResponsePostSerializer(serializers.ModelSerializer):
+    user = serializers.HiddenField(default=serializers.CurrentUserDefault())
+    #name = serializers.HiddenField(default='Anonymous')
+    class Meta:
+        model = SurveyResponse
+        fields = ['id', 'date', 'name', 'user', 'action_card', 'actions']
 class ActionCardSerializer(serializers.ModelSerializer):
     survey_responses = SurveyResponseSerializer(many=True, read_only=True)
     #actions = serializers.PrimaryKeyRelatedField(many=True, read_only=True)

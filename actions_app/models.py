@@ -1,5 +1,5 @@
 from django.db import models
-
+from django.contrib.auth.models import User
 # Create your models here.
 class Action(models.Model):
 	date = models.DateField(auto_now_add=True)
@@ -13,6 +13,7 @@ class ActionCard(models.Model):
 	actions = models.ManyToManyField(Action)
 
 class SurveyResponse(models.Model):
+	user = models.ForeignKey(User, null=True, blank=True, on_delete=models.PROTECT, related_name='survey_responses')
 	date = models.DateField(auto_now_add=True)
 	name = models.CharField(max_length=500)
 	actions = models.ManyToManyField(Action)
