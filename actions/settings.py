@@ -54,7 +54,7 @@ CORS_ALLOW_HEADERS = (
     'x-requested-with',
 )
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 DEBUG_PROPAGATE_EXCEPTIONS = True
 # Application definition
@@ -95,6 +95,7 @@ ROOT_URLCONF = 'actions.urls'
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
         'rest_framework.authentication.BasicAuthentication',
         'rest_framework.authentication.SessionAuthentication',
     ],
@@ -194,3 +195,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+LOGGING = { 'version': 1, 'disable_existing_loggers': False, 'handlers': { 'file': { 'level': 'DEBUG', 'class': 'logging.FileHandler', 'filename': '/tmp/debug.log', }, }, 'loggers': { 'django': { 'handlers': ['file'], 'level': 'DEBUG', 'propagate': True, }, }, }

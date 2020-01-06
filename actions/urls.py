@@ -16,6 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, re_path, include
 from actions_app import views
+from rest_framework_simplejwt import views as jwt_views
+
 urlpatterns = [
     path('', include('django.contrib.auth.urls')),
     re_path(r'^rest-auth/', include('rest_auth.urls')),
@@ -30,5 +32,7 @@ urlpatterns = [
     path('surveyresponses/<int:pk>/', views.SurveyResponseDetail.as_view()),
     path('tags/', views.TagList.as_view()),
     path('user/', views.current_user),
-    path('surveyresponses/user/', views.user_survey_responses)
+    path('surveyresponses/user/', views.user_survey_responses),
+    path('token/', jwt_views.TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    path('token/refresh/', jwt_views.TokenRefreshView.as_view(), name='token_refresh'),
 ]
