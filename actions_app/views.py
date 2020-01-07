@@ -73,7 +73,28 @@ class ActionCardList(generics.ListCreateAPIView):
 class ActionCardDetail(generics.RetrieveUpdateDestroyAPIView):
     permission_classes = [IsAuthenticatedOrReadOnly]
     queryset = ActionCard.objects.all()
-    serializer_class = ActionCardSerializer
+    serializer_class = ActionCardPostSerializer
+
+    def get_serializer_class(self):
+        """
+        Return the class to use for the serializer.
+        Defaults to using `self.serializer_class`.
+
+        You may want to override this if you need to provide different
+        serializations depending on the incoming request.
+
+        (Eg. admins get full serialization, others get basic serialization)
+        """
+        assert self.serializer_class is not None, (
+            "'%s' should either include a `serializer_class` attribute, "
+            "or override the `get_serializer_class()` method."
+            % self.__class__.__name__
+        )
+       
+        if self.request.method == 'GET':
+            return ActionCardSerializer
+        return self.serializer_class
+
 
 @api_view(['GET'])
 def latest_action_card(request):
