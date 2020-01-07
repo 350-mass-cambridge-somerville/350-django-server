@@ -1,15 +1,16 @@
 from rest_framework import serializers
-from actions_app.models import Action, ActionCard, SurveyResponse, Tag
+from actions_app.models import Action, ActionCard, SurveyResponse
 from django.contrib.auth.models import User
-
+from taggit_serializer.serializers import (TagListSerializerField,
+                                           TaggitSerializer)
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         fields = ['username', 'first_name', 'last_name', 'email', 'is_superuser']
-class TagSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Tag
-        fields = "__all__" #['id', 'number', 'date', 'actions', 'survey_responses']
+#class TagSerializer(serializers.ModelSerializer):
+#    class Meta:
+#        model = Tag
+#        fields = "__all__" #['id', 'number', 'date', 'actions', 'survey_responses']
 
 
 class SurveyResponseSerializer(serializers.ModelSerializer):
@@ -27,12 +28,18 @@ class SurveyResponsePostSerializer(serializers.ModelSerializer):
         fields = ['id', 'date', 'name', 'user', 'action_card', 'actions']
 
 class ActionSerializer(serializers.ModelSerializer):
-    tags = TagSerializer(many=True, read_only=True)
+    #tags = TagSerializer(many=True, read_only=True)
+    taggit = TagListSerializerField()
     
     class Meta:
         model = Action
-        fields = ['id', 'date', 'description', 'date_type', 'tags', 'geography_type', 'start_date', 'end_date']
-
+        fields = ['id', 'date', 'description', 'date_type', 'taggit', 'geography_type', 'start_date', 'end_date']
+    
+    def create(self, validated_data):
+        tags = validated_data.pop('taggit')
+        instance = super(ActionSerializer, self).create(validated_data)
+        instance.taggit.set(*tags)
+        return instance
 class ActionCardSerializer(serializers.ModelSerializer):
     survey_responses = SurveyResponseSerializer(many=True, read_only=True)
     actions = ActionSerializer(many=True, read_only=True)

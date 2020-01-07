@@ -6,3 +6,5 @@ django-allauth
 django-cors-middleware
 django-filter
 djangorestframework_simplejwt
+django-taggit
+django-taggit-serializer

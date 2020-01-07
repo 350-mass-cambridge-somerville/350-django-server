@@ -1,5 +1,5 @@
 from actions_app.models import Action, ActionCard, SurveyResponse, Tag
-from actions_app.serializers import ActionCardSerializer, ActionCardPostSerializer, ActionSerializer, SurveyResponseSerializer, SurveyResponsePostSerializer, TagSerializer, UserSerializer
+from actions_app.serializers import ActionCardSerializer, ActionCardPostSerializer, ActionSerializer, SurveyResponseSerializer, SurveyResponsePostSerializer, UserSerializer
 from actions_app.permissions import IsOwner
 from rest_framework import generics
 from rest_framework import status
@@ -28,10 +28,10 @@ def current_user(request):
 
 
 
-class TagList(generics.ListCreateAPIView):
-    permission_classes = [IsAuthenticatedOrReadOnly]
-    queryset = Tag.objects.all()
-    serializer_class = TagSerializer
+#class TagList(generics.ListCreateAPIView):
+#    permission_classes = [IsAuthenticatedOrReadOnly]
+#    queryset = Tag.objects.all()
+#    serializer_class = TagSerializer
 
 class ActionList(generics.ListCreateAPIView):
     permission_classes = [IsAuthenticatedOrReadOnly]

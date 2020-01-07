@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from taggit.managers import TaggableManager
 import datetime
 # Create your models here.
 GEOGRAPHY_TYPE_CHOICES = [
@@ -37,7 +38,8 @@ class Action(models.Model):
 	date = models.DateField(default=datetime.date.today)
 	start_date = models.DateField(default=datetime.date.today)
 	end_date = models.DateField(default=datetime.date.today)
-	tags = models.ManyToManyField(Tag, blank=True)
+	#tags = models.ManyToManyField(Tag, blank=True)
+	taggit = TaggableManager()
 	geography_type = models.CharField(choices=GEOGRAPHY_TYPE_CHOICES, 
                 default=GeographyTypeEnum.UNDEFINED, 
                 max_length=100)

@@ -30,7 +30,7 @@ urlpatterns = [
     path('actioncards/<int:pk>/', views.ActionCardDetail.as_view()),
     path('surveyresponses/', views.SurveyResponseList.as_view()),
     path('surveyresponses/<int:pk>/', views.SurveyResponseDetail.as_view()),
-    path('tags/', views.TagList.as_view()),
+    #path('tags/', views.TagList.as_view()),
     path('user/', views.current_user),
     path('surveyresponses/user/', views.user_survey_responses),
     path('token/', jwt_views.TokenObtainPairView.as_view(), name='token_obtain_pair'),
