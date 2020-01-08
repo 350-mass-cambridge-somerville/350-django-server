@@ -23,24 +23,24 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-CORS_ORIGIN_ALLOW_ALL = True
-CORS_ALLOW_CREDENTIALS = True
-CORS_ORIGIN_WHITELIST = [
-    'http://localhost:3000',
-    'https://localhost:3000',
-]
-CORS_ORIGIN_REGEX_WHITELIST = [
-    'localhost:3000',
-]
-CORS_ALLOW_METHODS = (
-    'DELETE',
-    'GET',
-    'OPTIONS',
-    'PATCH',
-    'POST',
-    'PUT',
-)
+DEBUG = os.getenv('DJANGO_DEBUG', False) == 1
+#CORS_ORIGIN_ALLOW_ALL = True
+#CORS_ALLOW_CREDENTIALS = True
+#CORS_ORIGIN_WHITELIST = [
+#    'http://localhost:3000',
+#    'https://localhost:3000',
+#]
+#CORS_ORIGIN_REGEX_WHITELIST = [
+#    'localhost:3000',
+#]
+#CORS_ALLOW_METHODS = (
+#    'DELETE',
+#    'GET',
+#    'OPTIONS',
+#    'PATCH',
+#    'POST',
+#    'PUT',
+#)
 
 CORS_ALLOW_HEADERS = (
     'accept',
