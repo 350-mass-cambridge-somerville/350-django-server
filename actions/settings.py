@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
+import logging
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -23,36 +24,37 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.getenv('DJANGO_DEBUG', False) == 1
-#CORS_ORIGIN_ALLOW_ALL = True
-#CORS_ALLOW_CREDENTIALS = True
-#CORS_ORIGIN_WHITELIST = [
-#    'http://localhost:3000',
-#    'https://localhost:3000',
-#]
-#CORS_ORIGIN_REGEX_WHITELIST = [
-#    'localhost:3000',
-#]
-#CORS_ALLOW_METHODS = (
-#    'DELETE',
-#    'GET',
-#    'OPTIONS',
-#    'PATCH',
-#    'POST',
-#    'PUT',
-#)
+DEBUG = True #os.getenv('DJANGO_DEBUG', True) == 1
+if (DEBUG):
+    CORS_ORIGIN_ALLOW_ALL = True
+    CORS_ALLOW_CREDENTIALS = True
+    CORS_ORIGIN_WHITELIST = [
+        'http://localhost:3000',
+        'https://localhost:3000',
+    ]
+    CORS_ORIGIN_REGEX_WHITELIST = [
+        'localhost:3000',
+    ]
+    CORS_ALLOW_METHODS = (
+        'DELETE',
+        'GET',
+        'OPTIONS',
+        'PATCH',
+        'POST',
+        'PUT',
+    )
 
-CORS_ALLOW_HEADERS = (
-    'accept',
-    'accept-encoding',
-    'authorization',
-    'content-type',
-    'dnt',
-    'origin',
-    'user-agent',
-    'x-csrftoken',
-    'x-requested-with',
-)
+    CORS_ALLOW_HEADERS = (
+        'accept',
+        'accept-encoding',
+        'authorization',
+        'content-type',
+        'dnt',
+        'origin',
+        'user-agent',
+        'x-csrftoken',
+        'x-requested-with',
+    )
 
 ALLOWED_HOSTS = ['*']
 
@@ -209,7 +211,7 @@ LOGGING = {
     'loggers': {
         'django': {
             'handlers': ['console'],
-            'level': os.getenv('DJANGO_LOG_LEVEL', 'INFO'),
+            'level': os.getenv('DJANGO_LOG_LEVEL', logging.INFO),
         },
     },
 }

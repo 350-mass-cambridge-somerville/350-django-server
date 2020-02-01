@@ -51,7 +51,7 @@ class Action(models.Model):
 class ActionCard(models.Model):
 	date = models.DateField(default=datetime.date.today)
 	number = models.IntegerField()
-	actions = models.ManyToManyField(Action)
+	actions = models.ManyToManyField(Action, blank=True)
 
 class SurveyResponse(models.Model):
 	user = models.ForeignKey(User, null=True, blank=True, on_delete=models.PROTECT, related_name='survey_responses')
