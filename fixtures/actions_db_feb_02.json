@@ -1,0 +1,2092 @@
+[
+	{
+		"model": "actions_app.action",
+		"pk": 1,
+		"fields": {
+			"date": "2020-01-14",
+			"start_date": "2020-01-08",
+			"end_date": "2020-01-08",
+			"geography_type": "STATE",
+			"date_type": "ON",
+			"description": "<p><span style=\"font-weight: 400;\">Join Mass Power Forward (MPF) for </span><a href=\"https://www.facebook.com/events/513263346066822\"><span style=\"font-weight: 400;\">Lobby Day</span></a><span style=\"font-weight: 400;\"> on </span><strong>Tuesday January 14th</strong><span style=\"font-weight: 400;\"> from 10:30am-3pm.&nbsp; This is a Climate Advocacy Day at the State House aimed at moving priority bills favorably through committee and supporting the omnibus bill due to be voted on in the Senate later this month.&nbsp;&nbsp;</span></p>\n<ul>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Attend by meeting at the Paulist Center (5 Park Street) at 10:30 am and wear your 350MA T-Shirt.&nbsp; Please </span><a href=\"https://docs.google.com/forms/d/e/1FAIpQLSeVGMvALrTekzeWDlfEzXhNDR_CrK6bFb1OjTIYlmh0OvW9YQ/viewform\"><span style=\"font-weight: 400;\">RSVP</span></a><span style=\"font-weight: 400;\">&nbsp;</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Residents from across the state will meet with their reps and senators to make the case for clean energy and environmental justice.&nbsp; Set up or join a meeting with your </span><a href=\"https://malegislature.gov/Search/FindMyLegislator\"><span style=\"font-weight: 400;\">rep and/or senator</span></a><span style=\"font-weight: 400;\"> to discuss your support for the MPF priorities: </span><a href=\"https://toxicsaction.org/wp-content/uploads/MPF100PercentRenewableEnergyFactSheet.pdf\"><span style=\"font-weight: 400;\">100% Renewable Energy for All</span></a><span style=\"font-weight: 400;\">, </span><a href=\"https://toxicsaction.org/wp-content/uploads/MPF_EnvironmentalJustice.pdf\"><span style=\"font-weight: 400;\">Environmental Justice</span></a><span style=\"font-weight: 400;\">, and </span><a href=\"https://toxicsaction.org/wp-content/uploads/TCI_CarbonPricingFactSheet.pdf\"><span style=\"font-weight: 400;\">Equitable Green Investment in our Communities</span></a><span style=\"font-weight: 400;\">.</span></li>\n</ul>"
+		}
+	},
+	{
+		"model": "actions_app.action",
+		"pk": 2,
+		"fields": {
+			"date": "2020-01-15",
+			"start_date": "2020-01-08",
+			"end_date": "2020-01-08",
+			"geography_type": "NATIONAL",
+			"date_type": "ON",
+			"description": "<p><span style=\"font-weight: 400;\">In coordination with 350 state groups across the country, we&rsquo;re taking part in another push to persuade the mega-bank JPMorgan Chase to stop loaning money to fossil fuel companies/projects.&nbsp; This comes after the recent announcement that their competitor, Goldman Sachs, would implement new (okay, but not great) restrictions on funding certain types of particularly bad fossil fuel projects.&nbsp; </span><span style=\"font-weight: 400;\">On </span><strong>Wednesday, January 15th</strong><span style=\"font-weight: 400;\">, take 30 seconds to call CEO Jamie Dimon&rsquo;s office</span><span style=\"font-weight: 400;\"> (212-270-1111) to ask him to show courage and wisdom by halting his company&rsquo;s financing of the fossil fuel industry.&nbsp; You might mention the </span><a href=\"https://www.ran.org/wp-content/uploads/2019/12/Goldman-Sachs-fossil-finance-policy-explainer-Dec-2019.pdf\"><span style=\"font-weight: 400;\">Goldman Sachs announcement</span></a><span style=\"font-weight: 400;\"> and encourage JPMorgan Chase to do better. &nbsp; We need 50+ people to make these calls! </span><span style=\"font-weight: 400;\">&nbsp;</span></p>"
+		}
+	},
+	{
+		"model": "actions_app.action",
+		"pk": 3,
+		"fields": {
+			"date": "2020-01-15",
+			"start_date": "2020-01-08",
+			"end_date": "2020-01-08",
+			"geography_type": "LOCAL",
+			"date_type": "NONE",
+			"description": "<p><span style=\"font-weight: 400;\">Welcome the newly elected city councils of Somerville and Cambridge with emails urging them to take bold action on climate change in 2020.&nbsp;</span></p>\n<ul>\n<li style=\"font-weight: 400;\"><strong>Somerville Residents:</strong><span style=\"font-weight: 400;\"> Specifically mention pushing for more renewable energy use -- including efforts to encourage residents to &ldquo;opt-up&rdquo; to 100% renewable electricity usage in their homes, and setting aggressive targets for renewable energy use in city operations and transportation. Email the entire council: </span><a href=\"mailto:citycouncil@somervillema.gov\"><span style=\"font-weight: 400;\">citycouncil@somervillema.gov</span></a><strong>&nbsp;</strong></li>\n<li style=\"font-weight: 400;\"><strong>Cambridge Residents: </strong><span style=\"font-weight: 400;\">Specifically mention Cambridge&rsquo;s municipal ordinance &ldquo;Prohibition of Natural Gas Infrastructure in New Buildings&rdquo; as a great next step in reducing the city&rsquo;s dependence on fossil fuels. Email the entire council at </span><a href=\"mailto:council@cambridgema.gov\"><span style=\"font-weight: 400;\">council@cambridgema.gov</span></a><span style=\"font-weight: 400;\"> and include </span><a href=\"mailto:clerk@cambridgema.gov\"><span style=\"font-weight: 400;\">clerk@cambridgema.gov</span></a><span style=\"font-weight: 400;\">.&nbsp;</span></li>\n</ul>"
+		}
+	},
+	{
+		"model": "actions_app.action",
+		"pk": 4,
+		"fields": {
+			"date": "2020-02-05",
+			"start_date": "2020-01-08",
+			"end_date": "2020-01-08",
+			"geography_type": "STATE",
+			"date_type": "BEFORE",
+			"description": "<p><span style=\"font-weight: 400;\">Contact your </span><a href=\"https://malegislature.gov/Search/FindMyLegislator\"><span style=\"font-weight: 400;\">State legislators </span></a><span style=\"font-weight: 400;\">and ask them to urge their colleagues to favorably report out of committee our top-priority bills before the February 5th deadline.&nbsp; Or, contact the chairwomen/chairmen directly!</span></p>\n<ul>\n<li style=\"font-weight: 400;\"><a href=\"https://malegislature.gov/Bills/191/H3983\"><span style=\"font-weight: 400;\">\"Roadmap\" Bill (Zero Carbon Emissions by 2050 -- H.3983)</span></a><span style=\"font-weight: 400;\"> is in the House Ways and Means Committee as of July 2019.&nbsp; Contact Chair Rep. </span><a href=\"https://malegislature.gov/Legislators/Profile/AMM1/191\"><span style=\"font-weight: 400;\">Aaron Michlewitz</span></a><span style=\"font-weight: 400;\"> (617) 722-2990 and urge the committee to report out the bill to the House for a vote.</span></li>\n<li style=\"font-weight: 400;\"><a href=\"https://malegislature.gov/Bills/191/H826\"><span style=\"font-weight: 400;\">Environmental Justice (S.453/H.826 &amp; S.464 / H.761)</span></a><span style=\"font-weight: 400;\"> was referred to Senate Ways and Means in Dec. 2019.&nbsp; Contact Chairs Sen. </span><a href=\"mailto:Michael.Rodrigues@masenate.gov\"><span style=\"font-weight: 400;\">Michael Rodrigues</span></a><span style=\"font-weight: 400;\"> (617) 722-1114 and </span><span style=\"font-weight: 400;\">Rep. </span><a href=\"https://malegislature.gov/Legislators/Profile/AMM1/191\"><span style=\"font-weight: 400;\">Aaron Michlewirz</span></a><span style=\"font-weight: 400;\"> (617) 722-2990 to urge them to have their committees vote favorably to move the bills to the Senate and House for votes.</span><span style=\"font-weight: 400;\">&nbsp;</span></li>\n<li style=\"font-weight: 400;\"><a href=\"https://malegislature.gov/Bills/191/h2836\"><span style=\"font-weight: 400;\">100% Clean, Renewable Energy (S.1958 /H.2836)</span></a><span style=\"font-weight: 400;\"> is in the Telecommunications, Utilities &amp; Energy (TUE) Committee since a hearing in July 2019. Contact TUE Chairs Sen. </span><a href=\"mailto:Mike.Barrett@masenate.gov\"><span style=\"font-weight: 400;\">Michael Barrett </span></a><span style=\"font-weight: 400;\">&nbsp;(617) 722-1572 and Rep </span><a href=\"mailto:Thomas.Golden@mahouse.gov\"><span style=\"font-weight: 400;\">Tom Golden</span></a><span style=\"font-weight: 400;\"> (617) 722-2263 and urge them to report out this bill with a favorable vote.</span></li>\n</ul>\n<p><a href=\"https://malegislature.gov/Bills/191/h3008\"><span style=\"font-weight: 400;\">TCI Bill (Transportation Climate Initiative &ndash; S.2106 / H.3008)</span></a><span style=\"font-weight: 400;\"> is in the Transportation Committee after a hearing in Dec. 2019.&nbsp; Contact Transportation Committee Chairs Sen. </span><a href=\"mailto:oseph.Boncore@masenate.gov\"><span style=\"font-weight: 400;\">Joseph Boncore</span></a><span style=\"font-weight: 400;\"> (617) 722-1634 and Rep. </span><a href=\"mailto:William.Straus@mahouse.gov\"><span style=\"font-weight: 400;\">William Straus&nbsp; </span></a><span style=\"font-weight: 400;\">(617) 722-2400 and urge them to report this bill with a favorable vote. </span></p>"
+		}
+	},
+	{
+		"model": "actions_app.action",
+		"pk": 5,
+		"fields": {
+			"date": "2020-01-25",
+			"start_date": "2020-01-22",
+			"end_date": "2020-01-22",
+			"geography_type": "NATIONAL",
+			"date_type": "ON",
+			"description": "<p>Participate in a direct <span class=\"il\">action</span> protest against the Chase Bank branch in Jamaica Plain (701 Centre St. in Boston) on Saturday January 25th from 10am-12pm.&nbsp; The theme of the <span class=\"il\">action</span> is &ldquo;Chase earns while Australia Burns&rdquo; and we&rsquo;ll highlight their continued fueling of the climate crisis with massive ongoing financing of the fossil fuel industry. Expect a peaceful, lawful, but energized protest.&nbsp; Please <a href=\"https://docs.google.com/forms/d/18VdFCr9eTtGT1dNsjT4eTmSBAqoD23qjLzAS0OE0il0/viewform?edit_requested=true\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=https://docs.google.com/forms/d/18VdFCr9eTtGT1dNsjT4eTmSBAqoD23qjLzAS0OE0il0/viewform?edit_requested%3Dtrue&amp;source=gmail&amp;ust=1579753682598000&amp;usg=AFQjCNHuSc--XzugKUtvMtPpkFz7gtY_Nw\">RSVP here</a> if you can...or just show up!&nbsp;&nbsp;</p>"
+		}
+	},
+	{
+		"model": "actions_app.action",
+		"pk": 6,
+		"fields": {
+			"date": "2020-01-21",
+			"start_date": "2020-01-22",
+			"end_date": "2020-01-22",
+			"geography_type": "STATE",
+			"date_type": "NONE",
+			"description": "<p>Contact your <a href=\"https://malegislature.gov/Search/FindMyLegislator\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=https://malegislature.gov/Search/FindMyLegislator&amp;source=gmail&amp;ust=1579753682598000&amp;usg=AFQjCNFnKqhHor6PG99-DSwepq0QRa9K5Q\">State legislators </a>and ask them to support the &ldquo;Roadmap&rdquo; Bills because we need time lines and accountability to be carbon neutral.&nbsp; <a href=\"https://malegislature.gov/Bills/191/H3983\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=https://malegislature.gov/Bills/191/H3983&amp;source=gmail&amp;ust=1579753682598000&amp;usg=AFQjCNEFuPJxW0Mgkf0H-9Ot3eeATG6ZCg\">H.3983</a> - An Act to Create a 2050 Roadmap to a Clean and Thriving Commonwealth and <a href=\"https://malegislature.gov/Bills/191/S524\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=https://malegislature.gov/Bills/191/S524&amp;source=gmail&amp;ust=1579753682598000&amp;usg=AFQjCNEIdWVoU_PHcLDRKdTLKSC6p4210A\">&nbsp;S.524</a> - An Act Relative to 2030, 2040, and 2050 Emissions Limits have been in their respective Ways and Means committees since July 2019.&nbsp; Please ask your representatives to urge their colleagues to vote them favorably out of committee.&nbsp;</p>"
+		}
+	},
+	{
+		"model": "actions_app.action",
+		"pk": 7,
+		"fields": {
+			"date": "2020-01-21",
+			"start_date": "2020-01-22",
+			"end_date": "2020-01-22",
+			"geography_type": "STATE",
+			"date_type": "NONE",
+			"description": "<p>Tell <a href=\"https://malegislature.gov/search/findmylegislator\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=https://malegislature.gov/search/findmylegislator&amp;source=gmail&amp;ust=1579753682598000&amp;usg=AFQjCNHK3YU-WwSMIVx51AdYJsJBBz_w9g\">your senators</a> to ask Senate President Karen Spilka to include equitable and effective carbon pricing in the upcoming Senate climate bill.&nbsp; Especially if your senator is <a href=\"https://malegislature.gov/Legislators/Profile/PDJ0\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=https://malegislature.gov/Legislators/Profile/PDJ0&amp;source=gmail&amp;ust=1579753682598000&amp;usg=AFQjCNGblZxNMxcjwDnZlegHIwdOz6ZeWA\">Pat Jehlen</a> or <a href=\"https://malegislature.gov/Legislators/Profile/SND0\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=https://malegislature.gov/Legislators/Profile/SND0&amp;source=gmail&amp;ust=1579753682598000&amp;usg=AFQjCNHBR5GRbiCMVWKcXdknQWkIJZXqcg\">Sal DiDomenico</a> (who co-sponsored the original carbon pricing bill).&nbsp; Equitable carbon pricing reduces emissions but also includes worker protections, rebates for low income households, and investments that help low income access to clean energy and transportation.&nbsp; Effective carbon pricing is making sure the price is at least $50/ton CO2. We want both!&nbsp; Here&rsquo;s a <a href=\"https://docs.google.com/document/d/1i8RN0BwIRr3pVrEQKmVdZO3xSaAmlwOVyoxDww2Goa8/edit\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=https://docs.google.com/document/d/1i8RN0BwIRr3pVrEQKmVdZO3xSaAmlwOVyoxDww2Goa8/edit&amp;source=gmail&amp;ust=1579753682598000&amp;usg=AFQjCNGmPQuFKpOb7SR3KnWIeI0SnmFkVQ\">sample script</a>.&nbsp;</p>"
+		}
+	},
+	{
+		"model": "actions_app.action",
+		"pk": 8,
+		"fields": {
+			"date": "2020-01-21",
+			"start_date": "2020-01-22",
+			"end_date": "2020-01-22",
+			"geography_type": "STATE",
+			"date_type": "NONE",
+			"description": "<p><a href=\"https://www.mass.gov/forms/sign-the-petition-shape-massachusetts-clean-energy-future\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=https://www.mass.gov/forms/sign-the-petition-shape-massachusetts-clean-energy-future&amp;source=gmail&amp;ust=1579753682598000&amp;usg=AFQjCNFVBepjSgHqmmtEGumHYkNPU3mIVw\">Sign the Petition:</a> Shape MA&rsquo;s clean energy future.&nbsp; <a href=\"https://www.iso-ne.com/\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=https://www.iso-ne.com/&amp;source=gmail&amp;ust=1579753682598000&amp;usg=AFQjCNEbIHlcduo51z2ZEP7fe6PZemZ2og\">ISO New England </a>is an independent agency responsible for keeping electricity flowing and ensuring competitively priced wholesale electricity now and in the future.&nbsp; They make the rules for buying and selling energy in our region. Support State Attorney General Maura Healey in calling on ISO New England to adopt energy market rules that promote affordable clean energy, healthy communities, and climate protection.&nbsp;&nbsp;</p>"
+		}
+	},
+	{
+		"model": "actions_app.action",
+		"pk": 9,
+		"fields": {
+			"date": "2020-01-21",
+			"start_date": "2020-01-22",
+			"end_date": "2020-01-22",
+			"geography_type": "STATE",
+			"date_type": "NONE",
+			"description": "<p>Senate bill <a href=\"https://malegislature.gov/Bills/191/S2422\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=https://malegislature.gov/Bills/191/S2422&amp;source=gmail&amp;ust=1579753682598000&amp;usg=AFQjCNGEKOuaIimH0P6FMK5c0XHePtz-eQ\">S2422: An Act Relative to Plastic Bag Reduction</a> has been referred to the committee on <a href=\"https://malegislature.gov/Committees/Detail/H33/191\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=https://malegislature.gov/Committees/Detail/H33/191&amp;source=gmail&amp;ust=1579753682598000&amp;usg=AFQjCNH_a3aq5iKSdGi1FclCFFkb9Z3dXQ\">House Rules.</a>&nbsp; If your legislature is on the <a href=\"https://malegislature.gov/Committees/Detail/H33/191\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=https://malegislature.gov/Committees/Detail/H33/191&amp;source=gmail&amp;ust=1579753682598000&amp;usg=AFQjCNH_a3aq5iKSdGi1FclCFFkb9Z3dXQ\">House Rules</a> committee, please ask them to quickly and favorably pass the bill out of committee.&nbsp; Otherwise, please ask your legislators to urge the House Rules committee to support this bill.&nbsp;&nbsp;&nbsp;</p>"
+		}
+	},
+	{
+		"model": "actions_app.action",
+		"pk": 10,
+		"fields": {
+			"date": "2020-01-21",
+			"start_date": "2020-01-22",
+			"end_date": "2020-01-22",
+			"geography_type": "LOCAL",
+			"date_type": "NONE",
+			"description": "<p>Provide your comments on \"<a href=\"https://www.somervision2040.com/\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=https://www.somervision2040.com/&amp;source=gmail&amp;ust=1579753682598000&amp;usg=AFQjCNFRvqYwyw9KfTYYWCOtb8q-hxrH7Q\">SomerVision 2040</a>.\" Last year, the Mayor's office convened a large task force to update Somerville&rsquo;s \"comprehensive vision document\" that outlines large-scale priorities. Their draft plan isn&rsquo;t binding in a legal sense but is frequently used as a reference when the city is prioritizing and pushing initiatives. Read it and send your comments to the <a href=\"mailto:Planning@SomervilleMA.gov\" target=\"_blank\" rel=\"noopener\">Administration</a> on things you agree with and things you believe are missing and/or should be improved.</p>"
+		}
+	},
+	{
+		"model": "actions_app.actioncard",
+		"pk": 2,
+		"fields": {
+			"date": "2020-01-07",
+			"number": 22,
+			"actions": [
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	},
+	{
+		"model": "actions_app.actioncard",
+		"pk": 4,
+		"fields": {
+			"date": "2020-01-21",
+			"number": 23,
+			"actions": [
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		}
+	},
+	{
+		"model": "sites.site",
+		"pk": 1,
+		"fields": {
+			"domain": "example.com",
+			"name": "example.com"
+		}
+	},
+	{
+		"model": "taggit.tag",
+		"pk": 1,
+		"fields": {
+			"name": "legislation",
+			"slug": "legislation"
+		}
+	},
+	{
+		"model": "taggit.tag",
+		"pk": 2,
+		"fields": {
+			"name": "in-person",
+			"slug": "in-person"
+		}
+	},
+	{
+		"model": "taggit.tag",
+		"pk": 3,
+		"fields": {
+			"name": "lobby-day",
+			"slug": "lobby-day"
+		}
+	},
+	{
+		"model": "taggit.tag",
+		"pk": 4,
+		"fields": {
+			"name": "chase",
+			"slug": "chase"
+		}
+	},
+	{
+		"model": "taggit.tag",
+		"pk": 5,
+		"fields": {
+			"name": "phone-call",
+			"slug": "phone-call"
+		}
+	},
+	{
+		"model": "taggit.tag",
+		"pk": 6,
+		"fields": {
+			"name": "email",
+			"slug": "email"
+		}
+	},
+	{
+		"model": "taggit.tag",
+		"pk": 7,
+		"fields": {
+			"name": "100-renewables",
+			"slug": "100-renewables"
+		}
+	},
+	{
+		"model": "taggit.tag",
+		"pk": 8,
+		"fields": {
+			"name": "gas-ban",
+			"slug": "gas-ban"
+		}
+	},
+	{
+		"model": "taggit.tag",
+		"pk": 9,
+		"fields": {
+			"name": "H-3983",
+			"slug": "h-3983"
+		}
+	},
+	{
+		"model": "taggit.tag",
+		"pk": 10,
+		"fields": {
+			"name": "legistlation",
+			"slug": "legistlation"
+		}
+	},
+	{
+		"model": "taggit.tag",
+		"pk": 11,
+		"fields": {
+			"name": "roadmap-bill",
+			"slug": "roadmap-bill"
+		}
+	},
+	{
+		"model": "taggit.tag",
+		"pk": 12,
+		"fields": {
+			"name": "carbon-pricing",
+			"slug": "carbon-pricing"
+		}
+	},
+	{
+		"model": "taggit.tag",
+		"pk": 13,
+		"fields": {
+			"name": "electricity",
+			"slug": "electricity"
+		}
+	},
+	{
+		"model": "taggit.tag",
+		"pk": 14,
+		"fields": {
+			"name": "other",
+			"slug": "other"
+		}
+	},
+	{
+		"model": "taggit.tag",
+		"pk": 15,
+		"fields": {
+			"name": "somervision",
+			"slug": "somervision"
+		}
+	},
+	{
+		"model": "taggit.tag",
+		"pk": 16,
+		"fields": {
+			"name": "somerville",
+			"slug": "somerville"
+		}
+	},
+	{
+		"model": "taggit.taggeditem",
+		"pk": 1,
+		"fields": {
+			"tag": 1,
+			"content_type": 7,
+			"object_id": 1
+		}
+	},
+	{
+		"model": "taggit.taggeditem",
+		"pk": 2,
+		"fields": {
+			"tag": 2,
+			"content_type": 7,
+			"object_id": 1
+		}
+	},
+	{
+		"model": "taggit.taggeditem",
+		"pk": 3,
+		"fields": {
+			"tag": 3,
+			"content_type": 7,
+			"object_id": 1
+		}
+	},
+	{
+		"model": "taggit.taggeditem",
+		"pk": 4,
+		"fields": {
+			"tag": 4,
+			"content_type": 7,
+			"object_id": 2
+		}
+	},
+	{
+		"model": "taggit.taggeditem",
+		"pk": 5,
+		"fields": {
+			"tag": 5,
+			"content_type": 7,
+			"object_id": 2
+		}
+	},
+	{
+		"model": "taggit.taggeditem",
+		"pk": 6,
+		"fields": {
+			"tag": 8,
+			"content_type": 7,
+			"object_id": 3
+		}
+	},
+	{
+		"model": "taggit.taggeditem",
+		"pk": 7,
+		"fields": {
+			"tag": 6,
+			"content_type": 7,
+			"object_id": 3
+		}
+	},
+	{
+		"model": "taggit.taggeditem",
+		"pk": 8,
+		"fields": {
+			"tag": 7,
+			"content_type": 7,
+			"object_id": 3
+		}
+	},
+	{
+		"model": "taggit.taggeditem",
+		"pk": 9,
+		"fields": {
+			"tag": 1,
+			"content_type": 7,
+			"object_id": 4
+		}
+	},
+	{
+		"model": "taggit.taggeditem",
+		"pk": 10,
+		"fields": {
+			"tag": 4,
+			"content_type": 7,
+			"object_id": 5
+		}
+	},
+	{
+		"model": "taggit.taggeditem",
+		"pk": 11,
+		"fields": {
+			"tag": 9,
+			"content_type": 7,
+			"object_id": 6
+		}
+	},
+	{
+		"model": "taggit.taggeditem",
+		"pk": 12,
+		"fields": {
+			"tag": 10,
+			"content_type": 7,
+			"object_id": 6
+		}
+	},
+	{
+		"model": "taggit.taggeditem",
+		"pk": 13,
+		"fields": {
+			"tag": 11,
+			"content_type": 7,
+			"object_id": 6
+		}
+	},
+	{
+		"model": "taggit.taggeditem",
+		"pk": 14,
+		"fields": {
+			"tag": 1,
+			"content_type": 7,
+			"object_id": 7
+		}
+	},
+	{
+		"model": "taggit.taggeditem",
+		"pk": 15,
+		"fields": {
+			"tag": 12,
+			"content_type": 7,
+			"object_id": 7
+		}
+	},
+	{
+		"model": "taggit.taggeditem",
+		"pk": 16,
+		"fields": {
+			"tag": 13,
+			"content_type": 7,
+			"object_id": 8
+		}
+	},
+	{
+		"model": "taggit.taggeditem",
+		"pk": 17,
+		"fields": {
+			"tag": 14,
+			"content_type": 7,
+			"object_id": 8
+		}
+	},
+	{
+		"model": "taggit.taggeditem",
+		"pk": 18,
+		"fields": {
+			"tag": 1,
+			"content_type": 7,
+			"object_id": 9
+		}
+	},
+	{
+		"model": "taggit.taggeditem",
+		"pk": 19,
+		"fields": {
+			"tag": 16,
+			"content_type": 7,
+			"object_id": 10
+		}
+	},
+	{
+		"model": "taggit.taggeditem",
+		"pk": 20,
+		"fields": {
+			"tag": 15,
+			"content_type": 7,
+			"object_id": 10
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 1,
+		"fields": {
+			"name": "Can add log entry",
+			"content_type": 1,
+			"codename": "add_logentry"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 2,
+		"fields": {
+			"name": "Can change log entry",
+			"content_type": 1,
+			"codename": "change_logentry"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 3,
+		"fields": {
+			"name": "Can delete log entry",
+			"content_type": 1,
+			"codename": "delete_logentry"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 4,
+		"fields": {
+			"name": "Can view log entry",
+			"content_type": 1,
+			"codename": "view_logentry"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 5,
+		"fields": {
+			"name": "Can add permission",
+			"content_type": 2,
+			"codename": "add_permission"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 6,
+		"fields": {
+			"name": "Can change permission",
+			"content_type": 2,
+			"codename": "change_permission"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 7,
+		"fields": {
+			"name": "Can delete permission",
+			"content_type": 2,
+			"codename": "delete_permission"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 8,
+		"fields": {
+			"name": "Can view permission",
+			"content_type": 2,
+			"codename": "view_permission"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 9,
+		"fields": {
+			"name": "Can add group",
+			"content_type": 3,
+			"codename": "add_group"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 10,
+		"fields": {
+			"name": "Can change group",
+			"content_type": 3,
+			"codename": "change_group"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 11,
+		"fields": {
+			"name": "Can delete group",
+			"content_type": 3,
+			"codename": "delete_group"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 12,
+		"fields": {
+			"name": "Can view group",
+			"content_type": 3,
+			"codename": "view_group"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 13,
+		"fields": {
+			"name": "Can add user",
+			"content_type": 4,
+			"codename": "add_user"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 14,
+		"fields": {
+			"name": "Can change user",
+			"content_type": 4,
+			"codename": "change_user"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 15,
+		"fields": {
+			"name": "Can delete user",
+			"content_type": 4,
+			"codename": "delete_user"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 16,
+		"fields": {
+			"name": "Can view user",
+			"content_type": 4,
+			"codename": "view_user"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 17,
+		"fields": {
+			"name": "Can add content type",
+			"content_type": 5,
+			"codename": "add_contenttype"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 18,
+		"fields": {
+			"name": "Can change content type",
+			"content_type": 5,
+			"codename": "change_contenttype"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 19,
+		"fields": {
+			"name": "Can delete content type",
+			"content_type": 5,
+			"codename": "delete_contenttype"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 20,
+		"fields": {
+			"name": "Can view content type",
+			"content_type": 5,
+			"codename": "view_contenttype"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 21,
+		"fields": {
+			"name": "Can add session",
+			"content_type": 6,
+			"codename": "add_session"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 22,
+		"fields": {
+			"name": "Can change session",
+			"content_type": 6,
+			"codename": "change_session"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 23,
+		"fields": {
+			"name": "Can delete session",
+			"content_type": 6,
+			"codename": "delete_session"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 24,
+		"fields": {
+			"name": "Can view session",
+			"content_type": 6,
+			"codename": "view_session"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 25,
+		"fields": {
+			"name": "Can add action",
+			"content_type": 7,
+			"codename": "add_action"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 26,
+		"fields": {
+			"name": "Can change action",
+			"content_type": 7,
+			"codename": "change_action"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 27,
+		"fields": {
+			"name": "Can delete action",
+			"content_type": 7,
+			"codename": "delete_action"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 28,
+		"fields": {
+			"name": "Can view action",
+			"content_type": 7,
+			"codename": "view_action"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 29,
+		"fields": {
+			"name": "Can add action card",
+			"content_type": 8,
+			"codename": "add_actioncard"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 30,
+		"fields": {
+			"name": "Can change action card",
+			"content_type": 8,
+			"codename": "change_actioncard"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 31,
+		"fields": {
+			"name": "Can delete action card",
+			"content_type": 8,
+			"codename": "delete_actioncard"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 32,
+		"fields": {
+			"name": "Can view action card",
+			"content_type": 8,
+			"codename": "view_actioncard"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 33,
+		"fields": {
+			"name": "Can add survey response",
+			"content_type": 9,
+			"codename": "add_surveyresponse"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 34,
+		"fields": {
+			"name": "Can change survey response",
+			"content_type": 9,
+			"codename": "change_surveyresponse"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 35,
+		"fields": {
+			"name": "Can delete survey response",
+			"content_type": 9,
+			"codename": "delete_surveyresponse"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 36,
+		"fields": {
+			"name": "Can view survey response",
+			"content_type": 9,
+			"codename": "view_surveyresponse"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 37,
+		"fields": {
+			"name": "Can add tag",
+			"content_type": 10,
+			"codename": "add_tag"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 38,
+		"fields": {
+			"name": "Can change tag",
+			"content_type": 10,
+			"codename": "change_tag"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 39,
+		"fields": {
+			"name": "Can delete tag",
+			"content_type": 10,
+			"codename": "delete_tag"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 40,
+		"fields": {
+			"name": "Can view tag",
+			"content_type": 10,
+			"codename": "view_tag"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 41,
+		"fields": {
+			"name": "Can add site",
+			"content_type": 11,
+			"codename": "add_site"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 42,
+		"fields": {
+			"name": "Can change site",
+			"content_type": 11,
+			"codename": "change_site"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 43,
+		"fields": {
+			"name": "Can delete site",
+			"content_type": 11,
+			"codename": "delete_site"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 44,
+		"fields": {
+			"name": "Can view site",
+			"content_type": 11,
+			"codename": "view_site"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 45,
+		"fields": {
+			"name": "Can add social application",
+			"content_type": 12,
+			"codename": "add_socialapp"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 46,
+		"fields": {
+			"name": "Can change social application",
+			"content_type": 12,
+			"codename": "change_socialapp"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 47,
+		"fields": {
+			"name": "Can delete social application",
+			"content_type": 12,
+			"codename": "delete_socialapp"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 48,
+		"fields": {
+			"name": "Can view social application",
+			"content_type": 12,
+			"codename": "view_socialapp"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 49,
+		"fields": {
+			"name": "Can add social account",
+			"content_type": 13,
+			"codename": "add_socialaccount"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 50,
+		"fields": {
+			"name": "Can change social account",
+			"content_type": 13,
+			"codename": "change_socialaccount"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 51,
+		"fields": {
+			"name": "Can delete social account",
+			"content_type": 13,
+			"codename": "delete_socialaccount"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 52,
+		"fields": {
+			"name": "Can view social account",
+			"content_type": 13,
+			"codename": "view_socialaccount"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 53,
+		"fields": {
+			"name": "Can add social application token",
+			"content_type": 14,
+			"codename": "add_socialtoken"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 54,
+		"fields": {
+			"name": "Can change social application token",
+			"content_type": 14,
+			"codename": "change_socialtoken"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 55,
+		"fields": {
+			"name": "Can delete social application token",
+			"content_type": 14,
+			"codename": "delete_socialtoken"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 56,
+		"fields": {
+			"name": "Can view social application token",
+			"content_type": 14,
+			"codename": "view_socialtoken"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 57,
+		"fields": {
+			"name": "Can add email address",
+			"content_type": 15,
+			"codename": "add_emailaddress"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 58,
+		"fields": {
+			"name": "Can change email address",
+			"content_type": 15,
+			"codename": "change_emailaddress"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 59,
+		"fields": {
+			"name": "Can delete email address",
+			"content_type": 15,
+			"codename": "delete_emailaddress"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 60,
+		"fields": {
+			"name": "Can view email address",
+			"content_type": 15,
+			"codename": "view_emailaddress"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 61,
+		"fields": {
+			"name": "Can add email confirmation",
+			"content_type": 16,
+			"codename": "add_emailconfirmation"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 62,
+		"fields": {
+			"name": "Can change email confirmation",
+			"content_type": 16,
+			"codename": "change_emailconfirmation"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 63,
+		"fields": {
+			"name": "Can delete email confirmation",
+			"content_type": 16,
+			"codename": "delete_emailconfirmation"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 64,
+		"fields": {
+			"name": "Can view email confirmation",
+			"content_type": 16,
+			"codename": "view_emailconfirmation"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 65,
+		"fields": {
+			"name": "Can add Token",
+			"content_type": 17,
+			"codename": "add_token"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 66,
+		"fields": {
+			"name": "Can change Token",
+			"content_type": 17,
+			"codename": "change_token"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 67,
+		"fields": {
+			"name": "Can delete Token",
+			"content_type": 17,
+			"codename": "delete_token"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 68,
+		"fields": {
+			"name": "Can view Token",
+			"content_type": 17,
+			"codename": "view_token"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 69,
+		"fields": {
+			"name": "Can add cors model",
+			"content_type": 18,
+			"codename": "add_corsmodel"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 70,
+		"fields": {
+			"name": "Can change cors model",
+			"content_type": 18,
+			"codename": "change_corsmodel"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 71,
+		"fields": {
+			"name": "Can delete cors model",
+			"content_type": 18,
+			"codename": "delete_corsmodel"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 72,
+		"fields": {
+			"name": "Can view cors model",
+			"content_type": 18,
+			"codename": "view_corsmodel"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 73,
+		"fields": {
+			"name": "Can add Tag",
+			"content_type": 19,
+			"codename": "add_tag"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 74,
+		"fields": {
+			"name": "Can change Tag",
+			"content_type": 19,
+			"codename": "change_tag"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 75,
+		"fields": {
+			"name": "Can delete Tag",
+			"content_type": 19,
+			"codename": "delete_tag"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 76,
+		"fields": {
+			"name": "Can view Tag",
+			"content_type": 19,
+			"codename": "view_tag"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 77,
+		"fields": {
+			"name": "Can add Tagged Item",
+			"content_type": 20,
+			"codename": "add_taggeditem"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 78,
+		"fields": {
+			"name": "Can change Tagged Item",
+			"content_type": 20,
+			"codename": "change_taggeditem"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 79,
+		"fields": {
+			"name": "Can delete Tagged Item",
+			"content_type": 20,
+			"codename": "delete_taggeditem"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 80,
+		"fields": {
+			"name": "Can view Tagged Item",
+			"content_type": 20,
+			"codename": "view_taggeditem"
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 1,
+		"fields": {
+			"user": null,
+			"date": "2020-01-08",
+			"name": "Jill Doe",
+			"action_card": 2,
+			"actions": [
+				2
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 2,
+		"fields": {
+			"user": null,
+			"date": "2020-01-08",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				2
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 3,
+		"fields": {
+			"user": null,
+			"date": "2020-01-09",
+			"name": "",
+			"action_card": 2,
+			"actions": []
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 4,
+		"fields": {
+			"user": null,
+			"date": "2020-01-10",
+			"name": "Jane Doe",
+			"action_card": 2,
+			"actions": [
+				1,
+				2,
+				4
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 5,
+		"fields": {
+			"user": null,
+			"date": "2020-01-12",
+			"name": "J. Doe",
+			"action_card": 2,
+			"actions": [
+				3,
+				4
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 6,
+		"fields": {
+			"user": null,
+			"date": "2020-01-12",
+			"name": "John Doe",
+			"action_card": 2,
+			"actions": [
+				3,
+				4
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 7,
+		"fields": {
+			"user": null,
+			"date": "2020-01-12",
+			"name": "",
+			"action_card": 2,
+			"actions": []
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 8,
+		"fields": {
+			"user": null,
+			"date": "2020-01-13",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				3,
+				4
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 9,
+		"fields": {
+			"user": null,
+			"date": "2020-01-13",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				3,
+				4
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 10,
+		"fields": {
+			"user": null,
+			"date": "2020-01-13",
+			"name": "",
+			"action_card": 2,
+			"actions": []
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 11,
+		"fields": {
+			"user": null,
+			"date": "2020-01-13",
+			"name": "",
+			"action_card": 2,
+			"actions": []
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 12,
+		"fields": {
+			"user": null,
+			"date": "2020-01-13",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				3,
+				4
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 13,
+		"fields": {
+			"user": null,
+			"date": "2020-01-14",
+			"name": "",
+			"action_card": 2,
+			"actions": []
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 14,
+		"fields": {
+			"user": null,
+			"date": "2020-01-14",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				4
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 15,
+		"fields": {
+			"user": null,
+			"date": "2020-01-14",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				4
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 16,
+		"fields": {
+			"user": null,
+			"date": "2020-01-15",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				2
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 17,
+		"fields": {
+			"user": null,
+			"date": "2020-01-15",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				2
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 18,
+		"fields": {
+			"user": null,
+			"date": "2020-01-15",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 19,
+		"fields": {
+			"user": null,
+			"date": "2020-01-15",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				1,
+				2,
+				4
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 20,
+		"fields": {
+			"user": null,
+			"date": "2020-01-15",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				4
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 21,
+		"fields": {
+			"user": null,
+			"date": "2020-01-15",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				1
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 22,
+		"fields": {
+			"user": null,
+			"date": "2020-01-15",
+			"name": "",
+			"action_card": 2,
+			"actions": []
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 23,
+		"fields": {
+			"user": null,
+			"date": "2020-01-15",
+			"name": "",
+			"action_card": 2,
+			"actions": []
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 24,
+		"fields": {
+			"user": null,
+			"date": "2020-01-15",
+			"name": "",
+			"action_card": 2,
+			"actions": []
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 25,
+		"fields": {
+			"user": null,
+			"date": "2020-01-15",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				1,
+				2
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 26,
+		"fields": {
+			"user": null,
+			"date": "2020-01-15",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				1,
+				2
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 27,
+		"fields": {
+			"user": null,
+			"date": "2020-01-15",
+			"name": "",
+			"action_card": 2,
+			"actions": []
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 28,
+		"fields": {
+			"user": null,
+			"date": "2020-01-15",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				1,
+				2
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 29,
+		"fields": {
+			"user": null,
+			"date": "2020-01-15",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				2
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 30,
+		"fields": {
+			"user": null,
+			"date": "2020-01-15",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				2
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 31,
+		"fields": {
+			"user": null,
+			"date": "2020-01-15",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				2
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 32,
+		"fields": {
+			"user": null,
+			"date": "2020-01-15",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				2
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 33,
+		"fields": {
+			"user": null,
+			"date": "2020-01-15",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				1
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 34,
+		"fields": {
+			"user": null,
+			"date": "2020-01-15",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				4
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 35,
+		"fields": {
+			"user": null,
+			"date": "2020-01-16",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				1
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 36,
+		"fields": {
+			"user": null,
+			"date": "2020-01-16",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				2
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 37,
+		"fields": {
+			"user": null,
+			"date": "2020-01-16",
+			"name": "",
+			"action_card": 2,
+			"actions": []
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 38,
+		"fields": {
+			"user": null,
+			"date": "2020-01-16",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				2
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 39,
+		"fields": {
+			"user": null,
+			"date": "2020-01-17",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				1,
+				2,
+				4
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 40,
+		"fields": {
+			"user": null,
+			"date": "2020-01-20",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				4
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 41,
+		"fields": {
+			"user": null,
+			"date": "2020-01-20",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				1,
+				3
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 42,
+		"fields": {
+			"user": null,
+			"date": "2020-01-20",
+			"name": "",
+			"action_card": 2,
+			"actions": []
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 43,
+		"fields": {
+			"user": null,
+			"date": "2020-01-20",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				4
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 44,
+		"fields": {
+			"user": null,
+			"date": "2020-01-21",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				1,
+				2
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 45,
+		"fields": {
+			"user": null,
+			"date": "2020-01-21",
+			"name": "",
+			"action_card": 2,
+			"actions": [
+				4
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 46,
+		"fields": {
+			"user": null,
+			"date": "2020-01-22",
+			"name": "",
+			"action_card": 4,
+			"actions": [
+				8,
+				10
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 47,
+		"fields": {
+			"user": null,
+			"date": "2020-01-22",
+			"name": "",
+			"action_card": 4,
+			"actions": [
+				8,
+				9,
+				6,
+				7
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 48,
+		"fields": {
+			"user": null,
+			"date": "2020-01-22",
+			"name": "",
+			"action_card": 4,
+			"actions": []
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 49,
+		"fields": {
+			"user": null,
+			"date": "2020-01-22",
+			"name": "",
+			"action_card": 4,
+			"actions": [
+				8,
+				7
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 50,
+		"fields": {
+			"user": null,
+			"date": "2020-01-22",
+			"name": "",
+			"action_card": 4,
+			"actions": [
+				10
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 51,
+		"fields": {
+			"user": null,
+			"date": "2020-01-22",
+			"name": "",
+			"action_card": 4,
+			"actions": [
+				8
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 52,
+		"fields": {
+			"user": null,
+			"date": "2020-01-23",
+			"name": "",
+			"action_card": 4,
+			"actions": [
+				8,
+				7
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 53,
+		"fields": {
+			"user": null,
+			"date": "2020-01-24",
+			"name": "",
+			"action_card": 4,
+			"actions": [
+				8
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 54,
+		"fields": {
+			"user": null,
+			"date": "2020-01-24",
+			"name": "",
+			"action_card": 4,
+			"actions": [
+				8,
+				6,
+				7
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 55,
+		"fields": {
+			"user": null,
+			"date": "2020-01-25",
+			"name": "",
+			"action_card": 4,
+			"actions": [
+				8
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 56,
+		"fields": {
+			"user": null,
+			"date": "2020-01-26",
+			"name": "",
+			"action_card": 4,
+			"actions": [
+				8
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 57,
+		"fields": {
+			"user": null,
+			"date": "2020-01-28",
+			"name": "",
+			"action_card": 4,
+			"actions": [
+				8
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 58,
+		"fields": {
+			"user": null,
+			"date": "2020-01-28",
+			"name": "",
+			"action_card": 4,
+			"actions": [
+				9,
+				6
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 59,
+		"fields": {
+			"user": null,
+			"date": "2020-01-28",
+			"name": "",
+			"action_card": 4,
+			"actions": [
+				8,
+				9,
+				6,
+				7
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 60,
+		"fields": {
+			"user": null,
+			"date": "2020-01-29",
+			"name": "",
+			"action_card": 4,
+			"actions": [
+				7
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 61,
+		"fields": {
+			"user": null,
+			"date": "2020-01-29",
+			"name": "",
+			"action_card": 4,
+			"actions": [
+				8,
+				6,
+				7
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 62,
+		"fields": {
+			"user": null,
+			"date": "2020-01-29",
+			"name": "",
+			"action_card": 4,
+			"actions": [
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 63,
+		"fields": {
+			"user": null,
+			"date": "2020-01-29",
+			"name": "",
+			"action_card": 4,
+			"actions": [
+				8,
+				9,
+				6,
+				7
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 64,
+		"fields": {
+			"user": null,
+			"date": "2020-01-29",
+			"name": "",
+			"action_card": 4,
+			"actions": [
+				8,
+				7
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 65,
+		"fields": {
+			"user": null,
+			"date": "2020-01-29",
+			"name": "",
+			"action_card": 4,
+			"actions": [
+				6,
+				7
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 66,
+		"fields": {
+			"user": null,
+			"date": "2020-02-02",
+			"name": "",
+			"action_card": 4,
+			"actions": [
+				8,
+				7
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 67,
+		"fields": {
+			"user": null,
+			"date": "2020-02-02",
+			"name": "",
+			"action_card": 4,
+			"actions": [
+				8,
+				7
+			]
+		}
+	},
+	{
+		"model": "actions_app.surveyresponse",
+		"pk": 68,
+		"fields": {
+			"user": null,
+			"date": "2020-02-02",
+			"name": "",
+			"action_card": 4,
+			"actions": [
+				7
+			]
+		}
+	}
+]

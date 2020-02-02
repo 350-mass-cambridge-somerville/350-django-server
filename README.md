@@ -18,6 +18,16 @@ To get started with the admin site, run
 `docker-compose run web python manage.py createsuperuser`
 This will allow you to create a login and password.
 
+Run make migrations commands:
+`docker-compose run web python manage.py makemigrations`
+Apply migrations:
+`docker-compose run web python manage.py migrate`
+Load data from fixtures:
+
+
+If you want to dump data, you can use:
+`docker-compose run web python manage.py dumpdata --exclude=allauth`
+
 ### Provided Endpoints
 
 
