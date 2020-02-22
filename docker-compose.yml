@@ -3,17 +3,25 @@ version: '3'
 services:
   db:
     image: postgres
+    volumes:
+      - ${ACTIONS_POSTGRES_DIR}:/var/lib/postgresql/data/
+    env_file:
+      - web-dev.env
+    networks:
+      - db_network
+    command: -p 5433
   web:
     build: .
     env_file:
       - web-dev.env 
-    command: gunicorn --bind :8000 actions.wsgi:application
+    command: gunicorn --bind :5000 actions.wsgi:application
     volumes:
       - .:/code
     depends_on:
       - db
     networks:  # <-- here
       - nginx_network
+      - db_network
   nginx:
     image: nginx:1.16.1
     depends_on:
@@ -22,17 +30,12 @@ services:
       - "${NGINX_PORT}:80"
       - "443:443"
     volumes:
-      - ./config/nginx/conf.d:/etc/nginx/conf.d
-      - ./data/certbot/conf:/etc/letsencrypt
-      - ./data/certbot/www:/var/www/certbot
+      - ${NGINX_CONFIG}:/etc/nginx/conf.d
     networks:  # <-- here
       - nginx_network
-  certbot:
-    image: certbot/certbot
-    volumes:
-      - ./data/certbot/conf:/etc/letsencrypt
-      - ./data/certbot/www:/var/www/certbot
 
 networks:  # <-- and here
   nginx_network:
+    driver: bridge
+  db_network:
     driver: bridge
