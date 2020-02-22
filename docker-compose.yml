@@ -31,6 +31,7 @@ services:
       - "443:443"
     volumes:
       - ${NGINX_CONFIG}:/etc/nginx/conf.d
+      - ${NGINX_CERTS_DIR}:/etc/nginx/certs
     networks:  # <-- here
       - nginx_network
 
