@@ -41,6 +41,16 @@ To deploy in production, you'll need to change the `docker-compose` config to po
 DJANGO_SECRET_KEY=<new secret key>
 DJANGO_DEBUG=0
 DJANGO_LOG_LEVEL=INFO
+SQL_ENGINE=django.db.backends.postgresql
+SQL_DATABASE=postgres
+SQL_HOST=db
+SQL_PORT=5433
+POSTGRES_USER=actions
+POSTGRES_PASSWORD=actions
+POSTGRES_DB=$SQL_DATABASE
 `
 New secret keys can be generated using https://miniwebtool.com/django-secret-key-generator/
-Then simply build and run the app as above.
+
+In addition, you will need to run 
+`docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d`
+to use the production overrides (with certbot).
