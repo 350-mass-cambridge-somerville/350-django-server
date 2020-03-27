@@ -17,6 +17,7 @@ services:
     command: gunicorn --bind :5000 actions.wsgi:application
     volumes:
       - .:/code
+      - static_volume:/code/staticfiles
     depends_on:
       - db
     networks:  # <-- here
@@ -31,6 +32,7 @@ services:
     volumes:
       - ${NGINX_CONFIG}:/etc/nginx/conf.d
       - ${NGINX_CERTS_DIR}:/etc/nginx/certs
+      - static_volume:/code/staticfiles
     networks:  # <-- here
       - nginx_network
 
@@ -39,3 +41,6 @@ networks:  # <-- and here
     driver: bridge
   db_network:
     driver: bridge
+
+volumes:
+  static_volume:

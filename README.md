@@ -23,6 +23,8 @@ Apply migrations:
 `docker-compose run web python manage.py migrate`
 Load data from fixtures:
 `docker-compose run web python manage.py loaddata fixtures/*.json`
+Collect static files for admin site:
+`docker-compose run web python manage.py collectstatic --noinput`
 
 To get started with the admin site, run
 `docker-compose run web python manage.py createsuperuser`
