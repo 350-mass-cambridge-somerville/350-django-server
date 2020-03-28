@@ -1,4 +1,5 @@
 from django.db import models
+from tinymce import models as tinymce_models
 from django.contrib.auth.models import User
 from taggit.managers import TaggableManager
 import datetime
@@ -46,7 +47,7 @@ class Action(models.Model):
 	date_type = models.CharField(choices=DATE_TYPE_CHOICES, 
 			default=DateTypeEnum.NONE, 
 			max_length=100)
-	description = models.TextField()
+	description = tinymce_models.HTMLField()
 
 class ActionCard(models.Model):
 	date = models.DateField(default=datetime.date.today)

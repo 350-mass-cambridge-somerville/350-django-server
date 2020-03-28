@@ -79,7 +79,8 @@ INSTALLED_APPS = [
     'corsheaders',
     'django_filters',
     'taggit',
-    'taggit_serializer'
+    'taggit_serializer',
+    'tinymce'
 ]
 
 SITE_ID = 1

@@ -8,4 +8,5 @@ django-filter
 djangorestframework_simplejwt
 django-taggit
 django-taggit-serializer
+django-tinymce
 gunicorn==19.9.0
