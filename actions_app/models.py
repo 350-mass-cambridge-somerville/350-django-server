@@ -48,11 +48,18 @@ class Action(models.Model):
 			default=DateTypeEnum.NONE, 
 			max_length=100)
 	description = tinymce_models.HTMLField()
+	slug = models.CharField(max_length=100, blank=True)
+
+	def __str__(self):
+		return str(self.slug) if self.slug else 'no slug found'
 
 class ActionCard(models.Model):
 	date = models.DateField(default=datetime.date.today)
 	number = models.IntegerField()
 	actions = models.ManyToManyField(Action, blank=True)
+
+	def __str__(self):
+		return 'Action Card #' + str(self.number)
 
 class SurveyResponse(models.Model):
 	user = models.ForeignKey(User, null=True, blank=True, on_delete=models.PROTECT, related_name='survey_responses')
