@@ -11,6 +11,7 @@ services:
       volumes:
         - ./config/nginx/conf.d:/etc/nginx/conf.d
         - ${NGINX_CERTS_DIR}:/etc/nginx/certs
+        - static_volume:/code/staticfiles
       networks:  # <-- here
         - nginx_network
   certbot:
@@ -27,3 +28,4 @@ volumes:
   certbot-etc:
   certbot-var:
   web-root:
+  static_volume:
