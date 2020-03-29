@@ -79,7 +79,8 @@ INSTALLED_APPS = [
     'corsheaders',
     'django_filters',
     'taggit',
-    'taggit_serializer'
+    'taggit_serializer',
+    'tinymce'
 ]
 
 SITE_ID = 1
@@ -135,11 +136,12 @@ WSGI_APPLICATION = 'actions.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
         'HOST': 'db',
-        'PORT': 5432,
+        "ENGINE": os.environ.get("SQL_ENGINE", "django.db.backends.postgresql_psycopg2"),
+        "NAME": os.environ.get("SQL_DATABASE", "actions"),
+        "USER": os.environ.get("POSTGRES_USER", "user"),
+        "PASSWORD": os.environ.get("POSTGRES_PASSWORD", "password"),
+        "PORT": os.environ.get("SQL_PORT", "5432"),
     }
 }
 
@@ -198,7 +200,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = '/staticfiles/'
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
 LOGGING = {
     'version': 1,

@@ -35,4 +35,5 @@ urlpatterns = [
     path('surveyresponses/user/', views.user_survey_responses),
     path('token/', jwt_views.TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('token/refresh/', jwt_views.TokenRefreshView.as_view(), name='token_refresh'),
+    re_path(r'^tinymce/', include('tinymce.urls')),
 ]

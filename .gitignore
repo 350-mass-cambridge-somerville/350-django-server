@@ -1,5 +1,7 @@
 .vscode
 web.env
+postgres_data
+staticfiles
 *.sqlite3
 */__pycache__
 __pycache__
