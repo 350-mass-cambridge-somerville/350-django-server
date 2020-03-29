@@ -218,3 +218,11 @@ LOGGING = {
         },
     },
 }
+MEDIA_URL = "/media/"
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+
+TINYMCE_DEFAULT_CONFIG = {
+}
+TINYMCE_SPELLCHECKER = True
+TINYMCE_JS_ROOT = os.path.join(MEDIA_ROOT, "tinymce/")
+
